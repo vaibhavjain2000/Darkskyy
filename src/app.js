@@ -21,7 +21,7 @@ app.use(express.static(path.join(publicDirectoryPath)))
 
 app.get('',(req,res)=>{
     res.render('index',{
-        title : 'Weather',
+        title : 'DarkSkyy',
         name : 'Pikachu'
 
     })
