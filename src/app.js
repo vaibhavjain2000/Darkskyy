@@ -93,3 +93,4 @@ app.get('*',(req, res)=>{
 app.listen(port, () =>{
     console.log('Server is up on port ' + port)
 })
+//  /Users/vaibhavjain/mongodb/bin/mongod --dbpath=/Users/vaibhavjain/mongodb-data (use to start mongodb)
